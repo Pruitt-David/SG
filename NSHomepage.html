@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Natural Selection</title>
+    </head>
+    <body>
+        <h1>Sentient Games</h1>
+        <div class="floating-box">
+            <a href="index.html">
+                <h3>HomePage</h3>
+            </a>
+            <a href="NSHomepage.html">
+                <h3>Natural Selection</h3>
+             </a>
+            <a href="meet.html">
+                <h3>Meet the Authors</h3>
+            </a>
+            <a href="time.html">
+                <h3>Timeline</h3>
+            </a>
+            <a href="contactUs.html">
+                <h3>Contact Us</h3>
+             </a>
+        </div>
+
+        <div class="floating-box">
+        <img class="titleImage" src="Title.png">
+            <h3>What is Natural Selection?</h3>
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; Natural Selection is a boardgame about Dominance, Sentience, or Elimination.  Your a single cell organism working your way to becoming a sentient creature. Want to overpopulate the world though dominance? Become an herbivore and overpopulate the planet.  Want to be a sentient creature able to reason? Become an omnivore and gain abilities to help you survive faster to  reach level 12.  Want to eliminate the competition? Become a carnivore and devour your oppponets.
+                &nbsp; &nbsp; &nbsp; &nbsp; With a deck of beautiful acrylic attack, defense, and event cards by our artist Kaleigh Quick, the endless combinations turn every game into a new game experience.</p>
+        </div>
+        
+        <br/><br/><br/><br/>
+        
+        <h2>How long until it releases?</h2>
+        <counter id="time"></counter>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+        <div class="containerIMG">
+            <h3>The Ice Age Event Card</h3>
+            <img src="IA.png">
+        </div>
+        <div class="containerIMG">
+            <h3>The Mating Season Event Card</h3>
+            <img src="MS.jpg">
+        </div>
+        <div class="containerIMG">
+            <h3>The Volcanic Eruption Event Card</h3>
+            <img src="VE.jpg">
+        </div>
+        <br/>
+        <h2>Quick note from the Authors</h2>
+
+        <div class="containerIMG">
+            <!-- Video Tag -->
+            <video controls autoplay poster="Title.png">
+                <source src="comingSoon.mp4" type="video/mp4">
+                <source src="comingSoon.mp4" type="video/ogg">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <!-- Brief Description of the gameplay -->
+        <h3>How to Play</h3>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; Start by dealing out 3 cards to every player and placing the Abundance Card in the center of the board for the current event.  The players are roll 1 die and whoever gets the highest number goes first.  The player who won draws a card to start their turn.  They may play any cards that they may like to.  However any other player may play a event card from their hand also at any time.  The current player then rolls both dice to see what it to occur on their turn, wether that is combat, drawing an additional card, or leveling up.  After the dice is rolled and the player has done that action the next players turn begins when they draw a card.</p>
+        
+        <!-- Form Tag -->
+        <form action="subscribed.php" method="post" name="myEmailForm">
+            <h2>Subscribe for more Details</h2>
+            First Name: <input type="text" name="firstName" id="firstName" placeholder="John "><br/>
+            Last Name: <input type="text" name="lastName" id="lastName" placeholder="Doe"><br/>
+            Email: <input type="email" name="email" id="email" placeholder="Email Address"><br/>
+            I want to buy this
+            <input type="checkbox" value="Yes" name="wantsToBuy" id="wantsToBuy">
+            <br/>
+            <input type="submit" name="send" value="Send Message">
+            <br/>
+        </form>
+        <!-- FAQs -->
+        <!--  More about Sentient Games -->
+    
+    <script>       
+        var countDownDate = new Date("Dec 25, 2017 12:00:00").getTime();
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;          
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("time").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+    
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("time").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+        </script>
+
+    </body>
+</html>

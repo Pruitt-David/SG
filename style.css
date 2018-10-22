@@ -1,0 +1,271 @@
+html{
+    background-color: #1E0137;
+    color: white;
+}
+
+h1{
+    color: whitesmoke;
+    font font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+        border-radius: 15px;
+
+}
+
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+
+}
+
+h3{
+    color: whitesmoke;
+    margin: 10px;
+    background: #550000;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid white;
+    
+}
+
+h4{
+    color: white;
+        border-radius: 15px;
+
+}
+
+p{
+    background-color: #990000;
+    text-align: center;
+    border-radius: 15px;
+    margin: 3px;
+
+}
+
+button{
+    color: aliceblue;
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+body{
+    background-color: #1E0137;
+    color: white;
+}
+
+.logoImg{
+    width: 90px;
+    backface-visibility: hidden;
+    text-align: left;
+    width: 100%px;
+}
+
+.logoButton{
+    background-color: deeppink;
+}
+
+a{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.iconImg{
+    width: 28px;
+}
+
+.authorImg{
+    width: 100%;
+}
+
+.icon{
+    width: 25px;
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+
+.buy{
+    background-color: dodgerblue;
+    text-align: justify;
+}
+
+.box{
+    display:inline-table;
+    width: 24%;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: #1F2359;
+}
+
+.boxborder{
+    border-radius: 15px;
+}
+
+span{
+    text-align: center;
+}
+
+.formFormat{
+    display: inline-table;
+    width: 25px;
+}
+
+ol{
+    border-radius: 15px;
+    list-style: decimal;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #550000;
+    text-align: center;
+    font-size: 23px;    
+}
+
+
+video{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border: white solid 1px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;     
+}
+
+li{
+    color: white;
+    text-align: left;
+}
+
+input{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input[type="text"]{
+    font-size: 18px;
+}
+
+input[type="email"]{
+    font-size: 18px;
+}
+
+input[type="submit"]{
+    border-radius: 15px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+}
+
+.centering{
+    padding-left: 10%;
+    text-align: left;
+}
+
+.whiteButton{
+    border-color: white;
+}
+
+.block{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.boxLogo{
+    width: 600px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+
+.subFormat{
+    display: block;
+    margin: 0 auto;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #1F2359;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    width: 90px;
+    background: #550000;
+    display: inline-block;
+    text-align: center;
+}
+
+.text{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.Sicon{
+    display: inline-flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px
+}
+
+.largeIcon{
+    width: 35px;
+}
+
+.largeIconCard{
+    width: 60px;
+    height: 90px;
+}
+
+.sideWaysCard{
+    width: 90px;
+    height: 60px;
+}
+
+body{
+    text-align: center;
+}
+
+.bodyIMG{
+    height: 1300px;
+    width: inherit;
+}
+
+#background{
+    background-image: url(newlogo.png);
+    height: 1200px;
+    width: 1000px;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+
+.authorImg{
+    border-radius: 15px;
+}
