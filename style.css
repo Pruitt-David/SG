@@ -102,8 +102,21 @@ a{
     background: #1F2359;
 }
 
+.boxTwo{
+    display: inline-table;
+    width: 24%;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: #1F2359;
+}
+
 .boxborder{
     border-radius: 15px;
+}
+
+.boxborderTwo{
+    transform: rotate(90deg);
 }
 
 span{
@@ -233,6 +246,10 @@ input[type="submit"]{
     height: 30px
 }
 
+.boardIcon{
+    width: 90px;
+}
+
 .largeIcon{
     width: 35px;
 }
@@ -265,7 +282,15 @@ body{
     
 }
 
-
 .authorImg{
     border-radius: 15px;
+}
+
+.setupContentImg{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border: white solid 1px;
+
 }
